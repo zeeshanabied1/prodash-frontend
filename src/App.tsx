@@ -1,16 +1,4 @@
 import "./App.css";
-import {
-  LayoutDashboard,
-  FolderKanban,
-  CheckSquare,
-  CalendarDays,
-  Target,
-  Settings,
-  Search,
-  Plus,
-  Clock,
-  BarChart3,
-} from "lucide-react";
 
 function App() {
   const wupTime = "3:30 am";
@@ -44,17 +32,6 @@ function App() {
           </div>
         </div>
       </section>
-      <aside className="w-64 border-r p-4">
-        <nav className="space-y-3">
-          <LayoutDashboard size={20} />
-          <FolderKanban size={20} />
-          <CheckSquare size={20} />
-          <CalendarDays size={20} />
-          <Target size={20} />
-          <BarChart3 size={20} />
-          <Settings size={20} />
-        </nav>
-      </aside>
     </>
   );
 }

@@ -1,6 +1,6 @@
 
 import type { Config } from "@netlify/functions";
-import { eq, isNull, desc } from "drizzle-orm";
+import { isNull, desc } from "drizzle-orm";
 import { db } from "../../src/lib/server/db";
 import { projects } from "../../src/lib/server/schema";
 
